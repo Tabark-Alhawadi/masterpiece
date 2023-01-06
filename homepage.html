@@ -5,9 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abel&family=Asap+Condensed&family=Dancing+Script:wght@700&family=Josefin+Sans&family=Noto+Serif&family=Signika&family=Signika+Negative:wght@300&family=Source+Serif+Pro&family=Varela+Round&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./homepage.css">
 </head>
 <body>
+    <header>
+        <div class="logo">Tabbi</div>
+        <div class="humburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <!-- <div class="icon">
+           
+        </div> -->
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="">Explore</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="">SignIn</a>
+                </li>
+                <li>
+                    <a href="">Join</a>
+                </li>
+                <li>
+                     <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <div class="up">
+        <div class="text">
+            <h1></h1>
+            <p>
+            </div>
+    <img src="./img/landingpage.png" alt="">
+            </p>
+    find your spectacular freelance service for your business
+    </div> -->
+
     
+    <!---------Home section------------>
+    <section class="home section">
+       <div class="container">
+        <div class="row">
+         <div class="home-info padd-15">
+          <h1>Find your <span class="spec">spectacular</span> freelance service for your business</h1>
+          <div class="search_wrap search_wrap_1">
+            <div class="search_box">
+                <input type="text" class="input">
+                <div class="btn btn_common">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+          </div>
+         </div>
+         <div class="home-img padd-15">
+           <img src="./img/landingpage.png" alt="">
+         </div>
+        </div>
+       </div>
+    </section>
+
+
+
+
+
+
+    <script>
+        humburger = document.querySelector(".humburger");
+        humburger.onclick = function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
