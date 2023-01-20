@@ -14,12 +14,11 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
-    /* font-family: 'Asap Condensed', sans-serif; */
-    /* font-family: 'Varela Round', sans-serif; */
-     /* font-family: 'Signika Negative', sans-serif; */
     font-family: 'Source Serif Pro', serif;
 }
 
+
+/*navbar*/
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -29,12 +28,9 @@ html{
 
 
                                    /*start section*/
-                          
-                                   
-
-                                   
 section{
     padding:2rem 9%;
+   margin-top: 55px;
 }
 
 .heading{
@@ -114,107 +110,8 @@ header .fa-bars{
     display: none;
 }
 
-.home{
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    background:url(./img/1.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
-.home .content{
-    max-width: 50rem;
-}
-
-.home .content h6{
-    font-size: 4.5rem;
-    color:#333;
-}
-
-.home .content span{
-    font-size: 4.5rem;
-    color:var(--bg-color2);
-    padding:1rem 0;
-    line-height: 1.5;
-}
-
-.home .content p{
-    font-size: 1.5rem;
-    color:var(--gray);
-    padding:1rem 0;
-    line-height: 1.5;
-}
-
-
-  
-   
-
-
-.cssbuttons-io-button {
-    background: var(--light-purple);
-    color: white;
-    font-family: inherit;
-    padding: 0.35em;
-    padding-left: 1.2em;
-    font-size: 17px;
-    font-weight: 500;
-    border-radius: 0.9em;
-    border: none;
-    letter-spacing: 0.05em;
-    display: flex;
-    align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em var(--light-purple);
-    overflow: hidden;
-    position: relative;
-    height: 2.8em;
-    padding-right: 3.3em;
-   }
-   
-   .cssbuttons-io-button .icon {
-    background: white;
-    margin-left: 1em;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.2em;
-    width: 2.2em;
-    border-radius: 0.7em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em var(--light-purple);
-    right: 0.3em;
-    transition: all 0.3s;
-   }
-   
-   .cssbuttons-io-button:hover .icon {
-    width: calc(100% - 0.6em);
-   }
-   
-   .cssbuttons-io-button .icon svg {
-    width: 1.1em;
-    transition: transform 0.3s;
-    color: var(--light-purple);
-   }
-   
-   .cssbuttons-io-button:hover .icon svg {
-    transform: translateX(0.1em);
-   }
-   
-   .cssbuttons-io-button:active .icon {
-    transform: scale(0.95);
-   }
-   
-
-
-
-
-
-
-
-
-
-
-                       /*Explore section*/
+                      /*Explore section*/
 
 .products .box-container{
     display: flex;
@@ -309,63 +206,7 @@ header .fa-bars{
     text-decoration: line-through;
 } */
 
-                                 /*why us*/
-/*about section*/
 
-.heading span{
- 
-    color: var(--light-purple);
-}
-.about .row{
-    display: flex;
-    align-items: center;
-    gap:2rem;
-    flex-wrap: wrap;
-    padding:2rem 0;
-    padding-bottom: 3rem;
-}
-
-.about .row .image-container{
-    flex:1 1 40rem;
-    position: relative;
-}
-
-.about .row .image-container img{
-    width:100%;
-    border:1.5rem solid var(--light-purple);
-    border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    height: 100%;
-    object-fit: cover;
-}
-
-.about .row .image-container h3{
-    position: absolute;
-    top:50%; transform: translateY(-50%);
-    font-size: 3rem;
-    background:var(--bg-color2);
-    width:100%;
-    padding:1rem 2rem;
-    text-align: center;
-    mix-blend-mode: screen;
-}
-
-.about .row .content{
-    flex:1 1 40rem;
-}
-
-.about .row .content h4{
-    font-size: 2rem;
-    color:var(--bg-color1);
-}
-
-.about .row .content p{
-    font-size: 1.5rem;
-    color:var(--gray);
-    padding:.5rem 0;
-    padding-top: 1rem;
-    line-height: 1.5;
-}
 
 
                                /*footer section*/
@@ -422,7 +263,6 @@ header .fa-bars{
     font-size: 25px;
     padding-left:20px;
 }
-
 
 
 

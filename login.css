@@ -108,8 +108,109 @@ header .fa-bars{
 }
 
 
+/*login section*/
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, var(--light-purple), var(--blue));
 
+}
 
+.main{
+    width: 400px;
+    height: 550px;
+    background: var(--light-purple);
+    overflow: hidden;
+    background: url(./img/sginup.jpg) no-repeat center / cover;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+}
+
+#chk{
+    display: none;
+}
+
+.signup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+label{
+    color: var(--bg-color2);
+    font-size: 3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+input{
+    width: 60%;
+    height: 40px;
+    background: var(--bg-color2);
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button{
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: var(--bg-color2);
+    background: var(--gray);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:var(--blue);
+}
+
+.login{
+    height: 460px;
+    background: #efefef;
+    border-radius: 60% / 10%;
+    transform: translateY(-200px);
+    transition: .8s ease-in-out;
+    font-size: 1.5em;
+}
+
+.login label{
+    color: var(--blue);
+    transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+    transform: translateY(-500px);
+} 
+
+#chk:checked ~ .login label{
+    transform: scale(1);
+}
+
+#chk:checked ~ .signup label{
+    transform: scale(.6);
+}
 
 
 
@@ -118,6 +219,8 @@ header .fa-bars{
 
 
                                /*footer section*/
+
+
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
